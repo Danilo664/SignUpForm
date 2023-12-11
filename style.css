@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0; 
     font-size: 16px;
+
+    display: flex;
 }
 @font-face {
     font-family: NorseBold;
@@ -50,4 +52,68 @@ body{
 }
 #odinFace{
     height: 8rem;
+}
+
+/* Left side finished */
+/* Starting right side */
+
+
+#randomText{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3rem;
+}
+
+.groupText{
+    margin: 0;
+}
+
+#inputFields{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+#ldd{
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(38, 38, 38);
+    margin: 0px;
+}
+input{
+    width: 15rem;
+    height: 1.3rem;
+    border-radius: 5px;
+    border:2px solid rgb(220,220,220);
+}
+.inputContainers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-family:sans-serif;
+    color: rgb(51, 51, 51);
+}
+#theButtons{
+    margin-top: 1rem;
+    font-family:sans-serif;
+    margin-left: 3rem;
+}
+button{
+    padding: 1rem 2rem;
+    background-color: rgb(89, 109, 72);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+#theInputs{
+    padding: 2rem 0rem 2rem 3rem;
+
+}
+
+#rightSide{
+    width: 65%;
+    height: 100vh;
 }
