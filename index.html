@@ -22,7 +22,7 @@
 
 <div id="rightSide">
 
-    <div id="randomText">
+    <div id="randomText" class="section theGreenishColor">
         <p class="groupText">This is not a real online service! You know you need something</p>
         <p class="groupText">like this in your life to help you realize your deepest dreams.</p>
         <p class="groupText">Sign up now to get started.</p>
@@ -30,38 +30,42 @@
         <p>You know you want to.</p>
     </div>
     <div id="theInputs">
-        <p id="ldd">Let's do this!</p>
+        <p id="ldd" class="theGreenishColor">Let's do this!</p>
 
         <div id="inputFields">
             <div class="inputContainers">
-            <label for="firstName">FIRST NAME</label>
+            <label for="firstName" class="theGreenishColor">FIRST NAME</label>
             <input id="firstName" type="text" placeholder="John">
+             <label for="firstName" class="alertLabel" id="alertLabelName"></label>
             </div>
             <div class="inputContainers">
-            <label for="lastName">LAST NAME</label>
+            <label for="lastName" class="theGreenishColor">LAST NAME</label>
             <input id="lastName" type="text" placeholder="Johnson">
+             <label for="lastName"  class="alertLabel" id="alertLabelLastName"></label>
             </div>
             <div class="inputContainers">
-            <label for="email">EMAIL</label>
-            <input id="email" type="text" placeholder="yourmail@oofmail.com">
+            <label for="email" class="theGreenishColor">EMAIL</label>
+            <input id="email" type="email" placeholder="yourmail@oofmail.com">
+             <label for="email" class="alertLabel" id="alertLabelEmail"></label>
             </div>
             <div class="inputContainers">
-            <label for="phoneNumber">PHONE NUMBER</label>
+            <label for="phoneNumber" class="theGreenishColor">PHONE NUMBER</label>
             <input id="phoneNumber" type="text" placeholder="+1 555-7890">
+             <label for="phoneNumber"  class="alertLabel" id="alertLabelPhoneNumber"></label>
             </div>
             <div class="inputContainers">
-            <label for="password">PASSWORD</label>
-            <input id="password" type="text">
+            <label for="password" class="theGreenishColor" minlength="8" maxlength="32">PASSWORD</label>
+            <input id="password" type="password">
             </div>
             <div class="inputContainers">
-            <label for="confirmPassword">CONFIRM PASSWORD</label>
-            <input id="confirmPassword" type="text">
+            <label for="confirmPassword" class="theGreenishColor" minlength="8" maxlength="32">CONFIRM PASSWORD</label>
+            <input id="confirmPassword" type="password">
             </div>
         </div>
 
     </div>
     <div id="theButtons">
-        <button>Create Account</button>
+        <button id="createAcc">Create Account</button>
         <p>Already have an account? <a href="https://www.youtube.com/watch?v=8EAxHFhBteY">Log in</a></p>
     </div>
 
